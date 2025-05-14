@@ -12,7 +12,7 @@ import { ScrollView, TouchableOpacity } from 'react-native'
 
 export function Profile() {
   const [userPhoto, setUserPhoto] = useState(
-    'https://github.com/arthurrios.png',
+    'https://avatars.githubusercontent.com/u/36297247',
   )
 
   const toast = useToast()
